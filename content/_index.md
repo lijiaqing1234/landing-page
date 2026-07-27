@@ -115,6 +115,12 @@ sections:
 
         Investigating gradient-free LLM post-training and efficient low-dimensional parameter-space search under the supervision of Prof. Zhenkun Wang.
 
+        ### Research Assistant - Harbin Institute of Technology
+
+        **May 2025 - June 2026**
+
+        Studied federated learning fine-tuning methods and active learning under the supervision of Prof. Beichen Zhang, with related manuscripts submitted to IEEE TFS and AAAI 2027.
+
         [View all experiences](experiences/)
     design:
       css_class: "bg-slate-50 dark:bg-slate-900/40"

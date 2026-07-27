@@ -52,4 +52,14 @@ sections:
         - Studying reasoning-trajectory diversity and pass@k performance
         - Exploring LoRA- and SVD-based parameter-space compression
         - Analyzing singular subspaces for effective low-dimensional search
+
+  - block: markdown
+    content:
+      title: Research Assistant - Harbin Institute of Technology
+      text: |
+        **May 2025 - June 2026**
+
+        Under the supervision of **Prof. Beichen Zhang**, I conducted research on federated learning fine-tuning methods and active learning.
+
+        The federated-learning study was developed into a manuscript submitted to **IEEE Transactions on Fuzzy Systems (TFS)**, while the active-learning study led to a manuscript submitted to **AAAI 2027**.
 ---
