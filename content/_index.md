@@ -47,42 +47,52 @@ sections:
       spacing:
         padding: ["3rem", 0, "3rem", 0]
 
-  - block: markdown
+  - block: collection
     id: research
     content:
-      title: Selected Research
-      text: |
-        ### Gradient-Free LLM Post-Training
-
-        Comparing Evolution Strategies with Group Relative Policy Optimization for large language model post-training, with a focus on reasoning-trajectory diversity and pass@k performance. A related manuscript has been submitted to AAAI 2027.
-
-        ### Compressed Parameter-Space Search
-
-        Studying LoRA- and SVD-based compression for efficient LLM adaptation, including performance-compression trade-offs and the contributions of different singular subspaces.
-
-        ### LLM4AD-NEXT
-
-        Contributing extensible end-to-end workflows to an open-source platform for LLM-driven automated algorithm design and evolutionary optimization.
-
-        [View publications](/publications/) | [Explore projects](/projects/) | [Open LLM4AD-NEXT on GitHub](https://github.com/Optima-CityU/LLM4AD_Next)
+      title: Selected Projects
+      text: Research on efficient LLM adaptation, evolutionary optimization, and automated algorithm design.
+      count: 3
+      sort_by: Date
+      sort_ascending: false
+      filters:
+        folders:
+          - projects
+      archive:
+        enable: true
+        text: View all projects
+        link: /projects/
     design:
+      view: article-grid
+      columns: 3
+      fill_image: false
+      show_date: true
+      show_read_time: false
+      show_read_more: true
       css_class: "bg-slate-50 dark:bg-slate-900/40"
       spacing:
         padding: ["4rem", 0, "4rem", 0]
 
-  - block: markdown
+  - block: collection
     id: news
     content:
       title: Recent News
-      text: |
-        **May 2026** - Joined **Huawei Noah's Ark Lab** as a Research Intern and began contributing to LLM4AD-NEXT.
-
-        **2026** - Submitted a manuscript on gradient-free post-training for large language models to **AAAI 2027**.
-
-        **December 2025** - Started working as a **Research Assistant** at the Southern University of Science and Technology under the supervision of Prof. Zhenkun Wang.
-
-        [View all news](/news/)
+      count: 3
+      sort_by: Date
+      sort_ascending: false
+      filters:
+        folders:
+          - news
+      archive:
+        enable: true
+        text: View all news
+        link: /news/
     design:
+      view: date-title-summary
+      columns: 1
+      show_date: true
+      show_read_time: false
+      show_read_more: true
       spacing:
         padding: ["4rem", 0, "4rem", 0]
 

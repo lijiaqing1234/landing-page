@@ -9,7 +9,7 @@ The site includes:
 - Publications
 - Projects
 - News
-- Internship experience
+- Experiences
 
 ## Local development
 
@@ -28,3 +28,17 @@ pnpm build
 
 All site content is stored as Markdown and YAML under `content/`, `data/`, and
 `config/`.
+
+## Publishing News and Project posts
+
+News and Projects are Markdown article collections. Create a draft page bundle
+with Hugo:
+
+```bash
+hugo new content/news/my-update/index.md
+hugo new content/projects/my-project/index.md
+```
+
+Edit the generated `index.md`, add any article images to the same folder, and
+set `draft: false` when the post is ready. The section page and homepage update
+automatically after the site is published.
