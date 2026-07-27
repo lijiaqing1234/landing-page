@@ -61,7 +61,7 @@ sections:
       archive:
         enable: true
         text: View all projects
-        link: /projects/
+        link: projects/
     design:
       view: article-grid
       columns: 3
@@ -86,7 +86,7 @@ sections:
       archive:
         enable: true
         text: View all news
-        link: /news/
+        link: news/
     design:
       view: date-title-summary
       columns: 1
@@ -113,7 +113,7 @@ sections:
 
         Investigating gradient-free LLM post-training and efficient low-dimensional parameter-space search under the supervision of Prof. Zhenkun Wang.
 
-        [View all experiences](/experiences/)
+        [View all experiences](experiences/)
     design:
       css_class: "bg-slate-50 dark:bg-slate-900/40"
       spacing:
