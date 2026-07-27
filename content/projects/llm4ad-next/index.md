@@ -1,6 +1,6 @@
 ---
 title: "LLM4AD-NEXT"
-date: 2026-05-01
+date: 2026-06-01
 authors:
   - me
 summary: "Contributing extensible workflows to an open-source platform for LLM-driven automated algorithm design."
