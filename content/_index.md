@@ -13,13 +13,15 @@ sections:
         I am currently a **Research Assistant at the Southern University of Science and Technology**, advised by **Prof. Zhenkun Wang**, where I study gradient-free LLM post-training and compressed parameter-space search. I am also a **Research Intern at Huawei Noah's Ark Lab**, contributing to the LLM4AD-NEXT platform for LLM-driven automated algorithm design.
 
         I am always happy to discuss research ideas and potential collaborations.
+
+        I am currently seeking **PhD opportunities starting in Fall 2027**.
     design:
       avatar:
         size: large
         shape: rounded
       biography:
         style: "max-width: 72ch;"
-      css_class: "bg-white dark:bg-slate-950"
+      css_class: "researcher-playground bg-white dark:bg-slate-950"
       spacing:
         padding: ["5rem", 0, "4rem", 0]
 
@@ -122,7 +124,7 @@ sections:
   - block: cta-card
     content:
       title: Let's discuss research
-      text: I welcome conversations about efficient LLM adaptation, evolutionary optimization, and automated algorithm design.
+      text: Stay curious, keep exploring.
       button:
         text: Email me
         url: mailto:2023210914@stu.hit.edu.cn
