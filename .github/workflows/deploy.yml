@@ -4,6 +4,9 @@ on:
   # Trigger the workflow every time you push to the `main` branch
   push:
     branches: ['main']
+  # Refresh the public GitHub avatar and profile status every day.
+  schedule:
+    - cron: '20 2 * * *'
   # Allows you to run this workflow manually from the Actions tab on GitHub
   workflow_dispatch:
 

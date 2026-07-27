@@ -48,6 +48,12 @@ jobs:
       if: hashFiles('package.json') != ''
       uses: pnpm/action-setup@v6
 
+    - name: Sync GitHub avatar and profile status
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_USERNAME: lijiaqing1234
+      run: node scripts/sync-github-profile.mjs
+
     - name: Get Hugo Version
       id: hugo-version
       run: |

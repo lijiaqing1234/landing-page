@@ -7,6 +7,9 @@ name:
   given: Jiaqing
   family: Li
 
+status:
+  icon: "💻"
+
 role: Undergraduate Student in Software Engineering
 
 bio: |
@@ -26,9 +29,9 @@ links:
   - icon: brands/github
     url: https://github.com/lijiaqing1234
     label: GitHub profile
-  - icon: academicons/cv
-    url: uploads/resume.pdf
-    label: Download my resume
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0009-9312-614X
+    label: ORCID profile
 
 interests:
   - Large Language Models
@@ -43,7 +46,7 @@ education:
     institution: Harbin Institute of Technology, Weihai
     end: 2027-06-30
     summary: |
-      Expected graduation in 2027. Current average grade: 82.31/100.
+      Expected graduation in 2027.
 
 experience:
   - role: Research Intern
@@ -58,17 +61,3 @@ experience:
     summary: |
       Studying gradient-free LLM post-training and compressed
       parameter-space search under the supervision of Prof. Zhenkun Wang.
-
-languages:
-  - name: English
-    level: 4
-    label: CET-6 558
-
-awards:
-  - title: People's Scholarship
-    awarder: Harbin Institute of Technology
-    summary: Awarded for academic excellence.
-    icon: hero/trophy
-  - title: Outstanding Student Award
-    awarder: Harbin Institute of Technology
-    icon: hero/star
