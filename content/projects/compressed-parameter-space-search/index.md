@@ -1,6 +1,6 @@
 ---
 title: "Compressed Parameter-Space Search"
-date: 2026-07-27
+date: 2026-07-21
 authors:
   - me
 summary: "Studying LoRA- and SVD-based compression for efficient low-dimensional LLM adaptation."
