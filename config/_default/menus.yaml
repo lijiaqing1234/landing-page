@@ -11,8 +11,8 @@ main:
   - name: News
     url: /news/
     weight: 40
-  - name: Internship
-    url: /internship/
+  - name: Experiences
+    url: /experiences/
     weight: 50
 
 footer:
@@ -35,8 +35,8 @@ footer:
     url: /news/
     weight: 40
   - parent: Explore
-    name: Internship
-    url: /internship/
+    name: Experiences
+    url: /experiences/
     weight: 50
 
   - name: Connect

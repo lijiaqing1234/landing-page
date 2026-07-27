@@ -23,34 +23,26 @@ sections:
       spacing:
         padding: ["5rem", 0, "4rem", 0]
 
-  - block: features
+  - block: markdown
     content:
-      subtitle: Research Interests
-      title: Efficient and adaptable reasoning systems
-      text: My work connects large language model post-training with low-dimensional and evolutionary search.
-      items:
-        - name: Efficient LLM Post-Training
-          icon: bolt
-          description: Gradient-free optimization, reasoning-trajectory diversity, and pass@k-oriented evaluation.
-        - name: Parameter-Efficient Adaptation
-          icon: adjustments-horizontal
-          description: LoRA, SVD-based compression, and low-dimensional parameter-space search.
-        - name: Automated Algorithm Design
-          icon: cpu-chip
-          description: LLM-driven agents, evolutionary optimization, and extensible heuristic-design workflows.
+      title: Research Interests
+      text: |
+        - Large Language Models
+        - Efficient Post-Training
+        - Parameter-Efficient Adaptation
+        - LLM Reasoning
+        - Evolutionary Optimization
+        - Automated Algorithm Design
     design:
-      layout: bento
       css_class: "bg-slate-50 dark:bg-slate-900/40"
       spacing:
-        padding: ["4rem", 0, "4rem", 0]
+        padding: ["3rem", 0, "3rem", 0]
 
   - block: markdown
     content:
       title: Education
       text: |
-        ### Harbin Institute of Technology, Weihai
-
-        **Bachelor of Engineering in Software Engineering** - Expected 2027
+        - **B.E. in Software Engineering**, Harbin Institute of Technology, Weihai - Expected 2027
     design:
       spacing:
         padding: ["3rem", 0, "3rem", 0]
@@ -72,7 +64,7 @@ sections:
 
         Contributing extensible end-to-end workflows to an open-source platform for LLM-driven automated algorithm design and evolutionary optimization.
 
-        [View publications](/publications/) · [Explore projects](/projects/) · [Open LLM4AD-NEXT on GitHub](https://github.com/Optima-CityU/LLM4AD_Next)
+        [View publications](/publications/) | [Explore projects](/projects/) | [Open LLM4AD-NEXT on GitHub](https://github.com/Optima-CityU/LLM4AD_Next)
     design:
       css_class: "bg-slate-50 dark:bg-slate-900/40"
       spacing:
@@ -95,9 +87,9 @@ sections:
         padding: ["4rem", 0, "4rem", 0]
 
   - block: markdown
-    id: experience
+    id: experiences
     content:
-      title: Research Experience
+      title: Experiences
       text: |
         ### Research Intern - Huawei Noah's Ark Lab
 
@@ -111,7 +103,7 @@ sections:
 
         Investigating gradient-free LLM post-training and efficient low-dimensional parameter-space search under the supervision of Prof. Zhenkun Wang.
 
-        [Read more about my internship](/internship/)
+        [View all experiences](/experiences/)
     design:
       css_class: "bg-slate-50 dark:bg-slate-900/40"
       spacing:
