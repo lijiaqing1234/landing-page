@@ -1,33 +1,74 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
-  display: 吳健雄
-  given: Shiung Wu
-  family: Chien
-  pronunciation: Chien Shiung Wu
-  pronouns: she/her
-status:
-  icon: "☕️"
-role: Professor of Artificial Intelligence
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+  display: Jiaqing Li
+  given: Jiaqing
+  family: Li
+
+role: Undergraduate Student in Software Engineering
+
+bio: |
+  I am an undergraduate student at Harbin Institute of Technology, Weihai.
+  My research focuses on efficient post-training and parameter-efficient
+  adaptation for large language models, LLM reasoning, evolutionary
+  optimization, and automated algorithm design.
+
 affiliations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Harbin Institute of Technology, Weihai
+    url: https://www.hitwh.edu.cn/
+
 links:
   - icon: at-symbol
-    url: mailto:your-email@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/GoOwnable
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: mailto:2023210914@stu.hit.edu.cn
+    label: Email me
+  - icon: brands/github
+    url: https://github.com/lijiaqing1234
+    label: GitHub profile
   - icon: academicons/cv
     url: uploads/resume.pdf
     label: Download my resume
-  - icon: rss
-    url: ./blog/index.xml
-    label: Subscribe to my blog via RSS feed
+
+interests:
+  - Large Language Models
+  - Efficient Post-Training
+  - Parameter-Efficient Adaptation
+  - LLM Reasoning
+  - Evolutionary Optimization
+  - Automated Algorithm Design
+
+education:
+  - degree: Bachelor of Engineering in Software Engineering
+    institution: Harbin Institute of Technology, Weihai
+    end: 2027-06-30
+    summary: |
+      Expected graduation in 2027. Current average grade: 82.31/100.
+
+experience:
+  - role: Research Intern
+    org: Huawei Noah's Ark Lab
+    start: 2026-05-01
+    summary: |
+      Contributing to LLM4AD-NEXT, an open-source agent platform for
+      LLM-driven automated algorithm design and evolutionary optimization.
+  - role: Research Assistant
+    org: Southern University of Science and Technology
+    start: 2025-12-01
+    summary: |
+      Studying gradient-free LLM post-training and compressed
+      parameter-space search under the supervision of Prof. Zhenkun Wang.
+
+languages:
+  - name: English
+    level: 4
+    label: CET-6 558
+
+awards:
+  - title: People's Scholarship
+    awarder: Harbin Institute of Technology
+    summary: Awarded for academic excellence.
+    icon: hero/trophy
+  - title: Outstanding Student Award
+    awarder: Harbin Institute of Technology
+    icon: hero/star

@@ -1,104 +1,51 @@
-# Navigation Links
-#   To link a page section, specify the URL as a hash `/#` followed by the `id` of the section.
-#   The `weight` parameter defines the order that the links will appear in.
-
 main:
-  - name: Home
-    url: /#top
+  - name: About
+    url: /
     weight: 10
-  - name: Features
-    url: /#features
+  - name: Publications
+    url: /publications/
     weight: 20
-  - name: Compare
-    url: /#compare
-    weight: 25
-  - name: Pricing
-    url: /#pricing
+  - name: Projects
+    url: /projects/
     weight: 30
-  - name: FAQ
-    url: /#faq
-    weight: 35
-  - name: Resources
+  - name: News
+    url: /news/
     weight: 40
-    hasChildren: true
-  - parent: Resources
-    name: Blog
-    url: blog/
-  - parent: Resources
-    name: Changelog
-    url: /changelog/
+  - name: Internship
+    url: /internship/
+    weight: 50
 
-# Footer links (4-column layout)
-#   Top-level items become column headings, children become links.
 footer:
-  - name: Product
+  - name: Explore
     weight: 10
-  - parent: Product
-    name: Features
-    url: /#features
-    weight: 10
-  - parent: Product
-    name: Solutions
-    url: /#solutions
-    weight: 20
-  - parent: Product
-    name: Pricing
-    url: /#pricing
-    weight: 30
-  - parent: Product
-    name: Compare
-    url: /#compare
-    weight: 35
-  - parent: Product
-    name: Changelog
-    url: /changelog/
-    weight: 40
-
-  - name: Company
-    weight: 20
-  - parent: Company
+  - parent: Explore
     name: About
-    url: "#"
+    url: /
     weight: 10
-  - parent: Company
-    name: Blog
-    url: /blog/
+  - parent: Explore
+    name: Publications
+    url: /publications/
     weight: 20
-  - parent: Company
-    name: Careers
-    url: "#"
+  - parent: Explore
+    name: Projects
+    url: /projects/
     weight: 30
-  - parent: Company
-    name: Contact
-    url: "#"
+  - parent: Explore
+    name: News
+    url: /news/
     weight: 40
+  - parent: Explore
+    name: Internship
+    url: /internship/
+    weight: 50
 
-  - name: Resources
-    weight: 30
-  - parent: Resources
-    name: Documentation
-    url: "#"
-    weight: 10
-  - parent: Resources
-    name: Help Center
-    url: "#"
+  - name: Connect
     weight: 20
-  - parent: Resources
-    name: Community
-    url: "#"
-    weight: 30
-  - parent: Resources
-    name: Status
-    url: "#"
-    weight: 40
-
-  - name: Legal
-    weight: 40
-  - parent: Legal
-    name: Privacy Policy
-    url: /privacy/
+  - parent: Connect
+    name: Email
+    url: mailto:2023210914@stu.hit.edu.cn
     weight: 10
-  - parent: Legal
-    name: Terms of Service
-    url: /terms/
+  - parent: Connect
+    name: GitHub
+    url: https://github.com/lijiaqing1234
     weight: 20
