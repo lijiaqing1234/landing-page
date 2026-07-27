@@ -1,6 +1,6 @@
 ---
 title: "Gradient-Free LLM Post-Training"
-date: 2026-01
+date: 2026-01-08
 authors:
   - me
 summary: "Comparing Evolution Strategies with GRPO for large language model post-training."
