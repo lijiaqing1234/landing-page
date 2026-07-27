@@ -8,7 +8,6 @@ sections:
     content:
       eyebrow: Experience
       title: Experiences
-      text: Research roles in large language model post-training and automated algorithm design.
     design:
       css_class: "dark"
       background:

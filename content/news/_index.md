@@ -8,7 +8,6 @@ sections:
     content:
       eyebrow: Updates
       title: News
-      text: Research milestones, new roles, and project updates.
     design:
       css_class: "dark"
       background:
@@ -24,7 +23,6 @@ sections:
   - block: collection
     content:
       title: Recent Updates
-      text: Research milestones, new roles, and project updates, published as individual posts.
       count: 0
       sort_by: Date
       sort_ascending: false

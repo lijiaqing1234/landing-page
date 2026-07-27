@@ -8,7 +8,6 @@ sections:
     content:
       eyebrow: Research
       title: Publications
-      text: Research outputs on efficient large language model post-training and optimization.
     design:
       css_class: "dark"
       background:
